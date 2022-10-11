@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity3"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/q3btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <RadioButton
+            android:id="@+id/q3b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kill La Kill"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/q3b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cyberpunk Edgerunners"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/q3b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One Punch Man"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/q3b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SSSS.Gridman"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="281dp"
+        android:layout_height="72dp"
+        android:text="Which one of these shows was not made by Studio Trigger?"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/earned3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 3"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/question3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
